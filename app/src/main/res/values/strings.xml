@@ -2,7 +2,7 @@
     <string name="app_name">YoubiMiku</string>
     <string name="miku_name">Hatsune Miku</string>
 
-    <string name="miku_nice_to_meet_you">Nice to meet you, %1$s!\nI\'m sorry, but at the moment I only support Japanese.</string>
+    <string name="miku_nice_to_meet_you">Nice to meet you, %1$s!</string>
     <string name="input_text_hint">"Message…"</string>
 
     <string name="ad_placeholder">Ads</string>
@@ -10,7 +10,7 @@
     <string name="message_error">An error has occurred. Please check your network connection.</string>
 
     <string name="setting_user_name">Your Name</string>
-    <string name="setting_name_title">Hou can I call you?</string>
+    <string name="setting_name_title">How can I call you?</string>
     <string name="setting_name_hint">Fill Name</string>
     <string name="setting_user_name_empty">Please enter your username</string>
     <string name="setting_dialog_accept">OK</string>

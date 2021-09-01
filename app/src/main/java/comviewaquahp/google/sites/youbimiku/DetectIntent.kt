@@ -14,7 +14,7 @@ class DetectIntent(
     companion object {
         private const val TAG = "DetectIntent"
         const val PROJECT_ID = "youbimiku-oopulf"
-        const val LANGUAGE_CODE = "ja"
+        const val LANGUAGE_CODE = "en"
         val SCOPE = listOf("https://www.googleapis.com/auth/cloud-platform")
     }
 
