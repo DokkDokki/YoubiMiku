@@ -27,4 +27,5 @@ This application features an adaptation of Hatsune Miku, © Crypton Future Media
 ## Author
 
 [Soichi Ikebe](https://github.com/Aqua-ix)
+
 [Thapanant Khongsattra](https://github.com/DokkDokki)
