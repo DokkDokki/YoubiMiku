@@ -14,7 +14,6 @@ class DetectIntent(
     companion object {
         private const val TAG = "DetectIntent"
         const val PROJECT_ID = "youbimiku-oopulf"
-        const val LANGUAGE_CODE = "en"
         val SCOPE = listOf("https://www.googleapis.com/auth/cloud-platform")
     }
 
@@ -52,7 +51,7 @@ class DetectIntent(
                                 .setText(TextInput
                                         .newBuilder()
                                         .setText(text)
-                                        .setLanguageCode(LANGUAGE_CODE))
+                                        .setLanguageCode(if (Locale.getDefault().language.equals("ja")) "ja" else "en"))
                                 .build())
                 .setSession(SessionName.format(PROJECT_ID, session))
                 .build()
